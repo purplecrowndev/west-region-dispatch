@@ -1,0 +1,17 @@
+{
+  "name": "west-region-dispatch",
+  "version": "1.0.0",
+  "description": "A minimalist blog built with Eleventy",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "serve": "eleventy --serve"
+  },
+  "keywords": ["blog", "eleventy", "11ty"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
