@@ -37,6 +37,7 @@ module.exports = function(eleventyConfig) {
     },
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "liquid",
-    templateFormats: ["md", "liquid", "html"]
+    templateFormats: ["md", "liquid", "html"],
+    pathPrefix: "/west-region-dispatch/"
   };
 };

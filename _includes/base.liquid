@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
   <header>
-    <h1><a href="/">{{ site.title }}</a></h1>
+    <h1><a href="{{ '/' | url }}">{{ site.title }}</a></h1>
     <nav>
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
+      <a href="{{ '/' | url }}">Home</a>
+      <a href="{{ '/about/' | url }}">About</a>
       <a href="https://discord.com/channels/1345532745463496717/1377752182253686876">Discord</a>
       <a href="https://pragmaticpapers.com/">Pragmatic Papers</a>
       <a href="https://destiny.gg/DGGPOL">Join DGGP</a>
